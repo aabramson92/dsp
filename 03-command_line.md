@@ -73,6 +73,7 @@ What does `xargs` do? Give an example of how to use it.
 
 > > The 'xargs' command takes standard input and converts it to arguments for a command. An example of how to use this is: 
       echo "test 123" | xargs mkdir
+    which creates a directory called "test 123", the output of echo.
 
  
 
