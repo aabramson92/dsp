@@ -20,7 +20,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > pwd: Show current working directory path
+    mkdir: Create a directory
+    rm -r: Delete a directory
+    touch: Create a file
+    rm: Delete a file
+    mv: Rename a file
+    ls -a: List all files, including hidden files
+    cp: Copy a file from one directory to another
+    grep: Searches file for lines that match input and returns them
+    sort: Sorts the contents of the input in alphabetical order
+    
 
 ---
 
@@ -35,7 +45,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls`: Displays all unhidden contents in the directory that match name inputted (will return all files if no argument)
+    `ls -a`: Displays contents in the directory, including hidden contents
+    `ls -l`: Displays contents in the directory in long form
+    `ls -lh`: Displays contents in the directory in long form with human-readable file sizes
+    `ls -lah`: Displays contents in the directory, including hidden contents, in long form with human-readable file sizes
+    `ls -t`: Displays contents in the directory sorted in reverse chronological order
+    `ls -Glp`: Displays contents in the directory in long form with the "/" character after directories and with colored output
 
 ---
 
@@ -43,7 +59,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 'ls -d': Displays only directories in the directory
+    'ls -m': Displays contents as part of a comma separated list
+    'ls -r': Displays contents in reverse order
+    'ls -u': Displays files by file access time
+    'ls -1': Displays entry on one line
 
 ---
 
@@ -51,7 +71,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > The 'xargs' command takes standard input and converts it to arguments for a command. An example of how to use this is: 
+      echo "test 123" | xargs mkdir
 
  
 
